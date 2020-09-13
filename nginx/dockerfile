@@ -1,0 +1,42 @@
+# 基于centos构建
+FROM centos:8
+# 说明信息
+MAINTAINER lizhenjun<1559068576@qq.com>
+# 添加本地内容到镜像并解压
+ADD nginx-1.18.0.tar.gz /usr/local/src
+ADD naxsi-1.1.tar.gz /usr/local/src
+# 切换至工作目录
+WORKDIR /usr/local/src/nginx-1.18.0
+# 安装依赖,创建用户与组,编译
+RUN yum -y install gcc gcc-c++ glibc make autoconf openssl openssl-devel pcre pcre-devel libtool wget unzip vim \
+&& groupadd nginx && useradd -g nginx nginx -M -s /sbin/nologin \
+&& ./configure \
+--prefix=/usr/local/nginx \
+--user=nginx \
+--group=nginx \
+--add-module=/usr/local/src/naxsi-1.1/naxsi_src \
+--with-pcre \
+--with-http_ssl_module \
+--with-http_v2_module \
+--with-http_realip_module \
+--with-http_addition_module \
+--with-http_sub_module \
+--with-http_dav_module \
+--with-http_flv_module \
+--with-http_mp4_module \
+--with-http_gunzip_module \
+--with-http_gzip_static_module \
+--with-http_random_index_module \
+--with-http_secure_link_module \
+--with-http_stub_status_module \
+--with-http_auth_request_module \
+--with-mail \
+--with-mail_ssl_module \
+--with-stream_ssl_module \
+&& make && make install
+# 暴露访问端口
+EXPOSE 80
+EXPOSE 443
+# 设置环境变量
+ENV PATH $PATH:/usr/local/nginx/sbin
+CMD ["nginx", "-g", "daemon off;"]
