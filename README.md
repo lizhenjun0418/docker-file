@@ -1,4 +1,4 @@
-# #关于
+# 关于
 
 基于centos8镜像 , nginx-1.18.0, naxis-1.1编写的dockerfile 的文件
 
