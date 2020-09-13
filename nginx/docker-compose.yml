@@ -1,0 +1,30 @@
+version: "3.8"
+services:
+  nginx:
+    restart: always
+    container_name: nginx
+    image: nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      TZ: Asia/Shanghai
+    volumes:
+      - /docker_data/nginx/log:/var/log/nginx
+      - /docker_data/nginx/html:/usr/share/nginx/html
+      - /docker_data/nginx/conf/nginx.conf:/etc/nginx/nginx.conf
+      - /docker_data/nginx/cert:/usr/local/cert
+
+    # 配置容器连接的网络，引用顶级 networks 下的条目
+    networks:
+      # 一个具体网络的条目名称
+      - nginx-net
+
+# 定义网络，可以多个。如果不声明，默认会创建一个网络名称为"工程名称_default"的 bridge 网络
+networks:
+  # 一个具体网络的条目名称
+  nginx-net:
+    # 网络名称，默认为"工程名称_网络条目名称"
+    name: nginx-net
+    # 网络模式，默认为 bridge
+    driver: bridge
