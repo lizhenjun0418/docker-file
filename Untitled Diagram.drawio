@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T03:08:46.924Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77" etag="OSmdeAOI1Ptt6QTiAJK-" version="16.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-08T03:12:38.135Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77" etag="xVyxDWJxNaGLFO40Ntbr" version="16.0.0" type="github" pages="2">
   <diagram name="Page-1" id="bfe91b75-5d2c-26a0-9c1d-138518896778">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -499,6 +499,24 @@
         </mxCell>
         <mxCell id="HKDqVsgVxOON_ts5jWsu-88" value="mysql数据库" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="HKDqVsgVxOON_ts5jWsu-1">
           <mxGeometry x="761.5" y="1420" width="80" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="HKDqVsgVxOON_ts5jWsu-89" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.user" vertex="1" parent="HKDqVsgVxOON_ts5jWsu-1">
+          <mxGeometry x="1056" y="60.5" width="47" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HKDqVsgVxOON_ts5jWsu-90" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="HKDqVsgVxOON_ts5jWsu-1">
+          <mxGeometry x="1064.5" y="360" width="51.25" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="HKDqVsgVxOON_ts5jWsu-92" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.firewall" vertex="1" parent="HKDqVsgVxOON_ts5jWsu-1">
+          <mxGeometry x="1040" y="230" width="90.91" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HKDqVsgVxOON_ts5jWsu-93" value="联通云网络防火墙" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="HKDqVsgVxOON_ts5jWsu-1">
+          <mxGeometry x="1033.4099999999999" y="320" width="104.09" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HKDqVsgVxOON_ts5jWsu-95" value="运维/开发" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="HKDqVsgVxOON_ts5jWsu-1">
+          <mxGeometry x="1043.95" y="120" width="83" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HKDqVsgVxOON_ts5jWsu-96" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="HKDqVsgVxOON_ts5jWsu-1">
+          <mxGeometry x="1064.5" y="150" width="45" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
