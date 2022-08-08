@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T03:23:37.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77" etag="tn82PMYZyeHVVexScCxl" version="16.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-08T03:24:03.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77" etag="4XXxh7mYLJYnUS6J4nz1" version="16.0.0" type="github" pages="2">
   <diagram name="Page-1" id="bfe91b75-5d2c-26a0-9c1d-138518896778">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -538,6 +538,9 @@
             <mxPoint x="570" y="740" as="sourcePoint" />
             <mxPoint x="480" y="820" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HKDqVsgVxOON_ts5jWsu-111" value="redis缓存服务" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="HKDqVsgVxOON_ts5jWsu-1">
+          <mxGeometry x="1217" y="860" width="155" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
