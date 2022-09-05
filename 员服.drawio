@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T06:05:54.821Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70" etag="N2BG5iRTj2RLoKCs2ZP6" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T06:17:59.615Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70" etag="mlX-CnRLALW27Oozw-UV" version="20.2.3" type="github">
   <diagram id="VUeCoH2JR9Ty6PS-MxEM" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -151,24 +151,6 @@
             <mxPoint x="774.5" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="osuFtyBqO4sbrCCpDrCr-75" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_server;rounded=0;labelBackgroundColor=#FAD9D5;fillStyle=auto;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="760" y="491.5" width="78.28" height="103" as="geometry" />
-        </mxCell>
-        <mxCell id="osuFtyBqO4sbrCCpDrCr-76" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.server_generic;rounded=0;labelBackgroundColor=#FAD9D5;fillStyle=auto;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="590.28" y="491.5" width="49.44" height="103" as="geometry" />
-        </mxCell>
-        <mxCell id="osuFtyBqO4sbrCCpDrCr-77" value="" style="endArrow=classic;html=1;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=2;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="osuFtyBqO4sbrCCpDrCr-72" target="osuFtyBqO4sbrCCpDrCr-76">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="660" y="500" as="sourcePoint" />
-            <mxPoint x="710" y="450" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="osuFtyBqO4sbrCCpDrCr-78" value="" style="endArrow=classic;html=1;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=2;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="790" y="420" as="sourcePoint" />
-            <mxPoint x="790" y="492.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="osuFtyBqO4sbrCCpDrCr-79" value="防火墙" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="660" y="197" width="70" height="20" as="geometry" />
         </mxCell>
@@ -233,20 +215,44 @@
             <mxPoint x="140" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="osuFtyBqO4sbrCCpDrCr-100" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.server_generic;rounded=0;labelBackgroundColor=#FAD9D5;fillStyle=auto;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="671.5" y="491.5" width="49.44" height="103" as="geometry" />
-        </mxCell>
-        <mxCell id="osuFtyBqO4sbrCCpDrCr-101" value="" style="endArrow=classic;html=1;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=2;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700.47" y="420" as="sourcePoint" />
-            <mxPoint x="700.47" y="492.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="osuFtyBqO4sbrCCpDrCr-102" value="数据服务器群" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FAD9D5;fillStyle=auto;fontSize=16;fontColor=#000000;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="610" y="610" width="200" height="36" as="geometry" />
+        <mxCell id="osuFtyBqO4sbrCCpDrCr-102" value="web服务器" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FAD9D5;fillStyle=auto;fontSize=16;fontColor=#000000;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="515.97" y="644" width="150" height="36" as="geometry" />
         </mxCell>
         <mxCell id="osuFtyBqO4sbrCCpDrCr-104" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;白云机场员工服务中心网络拓扑图&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fillStyle=auto;fontSize=16;fontColor=none;strokeColor=#FFFFFF;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="290" y="10" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="osuFtyBqO4sbrCCpDrCr-107" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fillStyle=auto;fontSize=18;fontColor=#ffffff;strokeColor=#314354;fillColor=#647687;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="523.26" y="460" width="136.74" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="osuFtyBqO4sbrCCpDrCr-108" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.server_generic;rounded=0;labelBackgroundColor=#FAD9D5;fillStyle=auto;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="570" y="491.5" width="49.44" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="osuFtyBqO4sbrCCpDrCr-109" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fillStyle=auto;fontSize=18;fontColor=#ffffff;strokeColor=#314354;fillColor=#647687;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="460" width="138.97" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="osuFtyBqO4sbrCCpDrCr-110" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_server;rounded=0;labelBackgroundColor=#FAD9D5;fillStyle=auto;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="770" y="491.5" width="78.28" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="osuFtyBqO4sbrCCpDrCr-111" value="数据库服务器" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FAD9D5;fillStyle=auto;fontSize=16;fontColor=#000000;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="724.49" y="644" width="150" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="osuFtyBqO4sbrCCpDrCr-112" value="" style="endArrow=classic;html=1;fontSize=18;fontColor=none;strokeColor=#000000;strokeWidth=2;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="594.22" y="417" as="sourcePoint" />
+            <mxPoint x="594" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="594.22" y="437" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="osuFtyBqO4sbrCCpDrCr-113" value="" style="endArrow=classic;html=1;fontSize=18;fontColor=none;strokeColor=#000000;strokeWidth=2;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="801.19" y="420" as="sourcePoint" />
+            <mxPoint x="800.97" y="463" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="801.19" y="440" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
