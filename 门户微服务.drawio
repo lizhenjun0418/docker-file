@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-27T12:07:42.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="YNWhr1ZT3szcYxJ3eQig" version="20.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-27T12:09:03.311Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="Tyjh9WVsXCzvZmhC0Z8b" version="20.7.3" type="github">
   <diagram name="第 1 页" id="ni2XKdgbC6iAozZIejau">
     <mxGraphModel dx="2146" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -187,8 +187,8 @@
         <mxCell id="4fO2Cc71BolnSUJtsAkM-47" value="byairport-inf" style="whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=2;fillColor=#CCFF99;rounded=1;" vertex="1" parent="4fO2Cc71BolnSUJtsAkM-44">
           <mxGeometry x="15" y="60" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4fO2Cc71BolnSUJtsAkM-48" value="inf服务集群" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="4fO2Cc71BolnSUJtsAkM-44">
-          <mxGeometry x="30" y="170" width="80" height="30" as="geometry" />
+        <mxCell id="4fO2Cc71BolnSUJtsAkM-48" value="白云机场APP&lt;br&gt;接口服务集群" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="4fO2Cc71BolnSUJtsAkM-44">
+          <mxGeometry x="20" y="165" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4fO2Cc71BolnSUJtsAkM-49" value="" style="swimlane;startSize=0;dashed=1;strokeColor=#FFB570;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="4fO2Cc71BolnSUJtsAkM-32">
           <mxGeometry x="40" y="270" width="140" height="210" as="geometry" />
@@ -217,8 +217,8 @@
         <mxCell id="4fO2Cc71BolnSUJtsAkM-57" value="byairport-jct" style="whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=2;fillColor=#CCFF99;rounded=1;" vertex="1" parent="4fO2Cc71BolnSUJtsAkM-54">
           <mxGeometry x="15" y="60" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4fO2Cc71BolnSUJtsAkM-58" value="机场通App接口服务集群" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="4fO2Cc71BolnSUJtsAkM-54">
-          <mxGeometry x="-5" y="170" width="150" height="30" as="geometry" />
+        <mxCell id="4fO2Cc71BolnSUJtsAkM-58" value="机场通App&lt;br&gt;接口服务集群" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="4fO2Cc71BolnSUJtsAkM-54">
+          <mxGeometry x="20" y="165" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4fO2Cc71BolnSUJtsAkM-59" value="" style="swimlane;startSize=0;dashed=1;strokeColor=#FFB570;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="4fO2Cc71BolnSUJtsAkM-32">
           <mxGeometry x="530" y="270" width="140" height="210" as="geometry" />
@@ -263,7 +263,7 @@
             <mxPoint x="526" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4fO2Cc71BolnSUJtsAkM-69" value="Sentinel" style="whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=2;fillColor=#f8cecc;gradientColor=#ea6b66;" vertex="1" parent="4fO2Cc71BolnSUJtsAkM-32">
+        <mxCell id="4fO2Cc71BolnSUJtsAkM-69" value="Sentinel" style="whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=2;fillColor=#f8cecc;gradientColor=#ea6b66;rounded=1;" vertex="1" parent="4fO2Cc71BolnSUJtsAkM-32">
           <mxGeometry x="190" y="330" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4fO2Cc71BolnSUJtsAkM-70" value="Sentinel" style="whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=2;fillColor=#f8cecc;gradientColor=#ea6b66;rounded=1;" vertex="1" parent="4fO2Cc71BolnSUJtsAkM-32">
@@ -356,6 +356,9 @@
         </mxCell>
         <mxCell id="4fO2Cc71BolnSUJtsAkM-98" value="APP 微信小程序" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-155" y="285" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4fO2Cc71BolnSUJtsAkM-99" value="网关验签" style="whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=2;fillColor=#f8cecc;gradientColor=#ea6b66;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="620" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
