@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-27T12:09:03.311Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="Tyjh9WVsXCzvZmhC0Z8b" version="20.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-27T12:10:29.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="M8fAHIVCGWUn4_vHdE3K" version="20.7.3" type="github">
   <diagram name="第 1 页" id="ni2XKdgbC6iAozZIejau">
     <mxGraphModel dx="2146" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -109,12 +109,13 @@
         <mxCell id="4fO2Cc71BolnSUJtsAkM-25" value="网关集群" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="4fO2Cc71BolnSUJtsAkM-21">
           <mxGeometry x="40" y="205" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4fO2Cc71BolnSUJtsAkM-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeWidth=2;endArrow=classic;endFill=1;entryX=0.35;entryY=0.995;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="4fO2Cc71BolnSUJtsAkM-32" target="4fO2Cc71BolnSUJtsAkM-6">
+        <mxCell id="4fO2Cc71BolnSUJtsAkM-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeWidth=2;endArrow=classic;endFill=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="4fO2Cc71BolnSUJtsAkM-32">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="660" y="250" as="targetPoint" />
+            <mxPoint x="360" y="260" as="targetPoint" />
             <Array as="points">
               <mxPoint x="360" y="478" />
-              <mxPoint x="360" y="259" />
+              <mxPoint x="360" y="280" />
+              <mxPoint x="360" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -323,10 +324,14 @@
           <mxGeometry x="75" y="1035" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4fO2Cc71BolnSUJtsAkM-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="4fO2Cc71BolnSUJtsAkM-89" target="4fO2Cc71BolnSUJtsAkM-21">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-17" y="605" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="4fO2Cc71BolnSUJtsAkM-89" value="" style="swimlane;startSize=0;dashed=1;fontSize=14;strokeColor=#FFB570;strokeWidth=2;fillColor=#FFB570;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-147.5" y="505" width="130" height="200" as="geometry" />
+          <mxGeometry x="-147.5" y="500" width="130" height="205" as="geometry" />
         </mxCell>
         <mxCell id="4fO2Cc71BolnSUJtsAkM-90" value="Nginx负载均衡" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFFFFF;fillColor=#ffcd28;fontSize=14;gradientColor=#ffa500;rounded=1;" vertex="1" parent="4fO2Cc71BolnSUJtsAkM-89">
           <mxGeometry x="5" y="40" width="120" height="30" as="geometry" />
